@@ -162,3 +162,4 @@ cython_debug/
 lemmas.txt
 url
 output/
+*.xml
