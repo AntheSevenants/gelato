@@ -160,6 +160,8 @@ cython_debug/
 #.idea/
 
 lemmas.txt
-url
+*_url
 output/
 *.xml
+*.html
+*.txt
