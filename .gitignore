@@ -165,3 +165,4 @@ output/
 *.xml
 *.html
 *.txt
+!requirements.txt
