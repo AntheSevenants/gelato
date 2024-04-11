@@ -9,7 +9,7 @@ parser = argparse.ArgumentParser(description="Get semantic information about wor
 
 parser.add_argument("url", type=str, help="Path to the advanced search URL")
 parser.add_argument("lemmas_path", type=str, help="Path to text file with lemmas, one lemma each line")
-parser.add_argument("-o", "--out_dir", type=str, help="Path to text file with lemmas, one lemma each line", default="output/")
+parser.add_argument("-o", "--out_dir", type=str, help="Path to the output directory", default="output/")
 
 args = parser.parse_args()
 
